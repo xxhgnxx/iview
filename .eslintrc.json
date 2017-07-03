@@ -1,0 +1,26 @@
+{
+    "root": true,
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "env": {
+        "browser": true
+    },
+    // "extends": "vue",
+    "extends": [
+    "eslint:recommended",
+    "plugin:vue/base"
+  ],
+    "plugins": ["html"],
+    
+    "rules": {
+        "indent": ["error", 4, {
+            "SwitchCase": 1
+        }],
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"],
+        "no-console": ["error"],
+        "vue/no-invalid-v-if": "error"
+    }
+}
